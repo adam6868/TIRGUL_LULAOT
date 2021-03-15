@@ -108,6 +108,22 @@ namespace TIRGUL_LULAOT
             //}
             //Console.WriteLine("{0} F ",errF);
             //Console.WriteLine("{0} F precent ",errF/N);
+
+
+
+
+            //ex7
+            int max = int.MinValue;
+            int min = int.MaxValue;
+            int num;
+            for (int i = 0; i < 10; i++)
+
+            {
+                num = int.Parse(Console.ReadLine());
+                max = Math.Max(max, num);
+                min = Math.Min(min, num);
+            }
+            Console.WriteLine("max is {0} min is {0}",max,min);
         }
 
     }
