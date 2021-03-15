@@ -64,16 +64,54 @@ namespace TIRGUL_LULAOT
             //enter how many tasks you did
 
             //ex5
-            int num1, num2, num3;
-            for (int i = 0; i < 10; i++)
-            {
+            //int c1 = 0, c2 = 0, c3 = 0;//counter 
+            //char num1, num2, num3;//אוהב או לא אוהב
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine("do u love thriller movies");
+            //    num1 = char.Parse(Console.ReadLine());
+            //    Console.WriteLine("do u love comedy movies");
+            //    num2 = char.Parse(Console.ReadLine());
+            //    Console.WriteLine("do u love drama movies");
+            //    num3 = char.Parse(Console.ReadLine());
+            //    if (num1 == 'Y')
+            //        c1++;
+            //    if (num2 == 'Y')
+            //        c2++;
+            //    if (num3 == 'Y')
+            //        c3++;
+            //}
+            //Console.WriteLine(c1);
+            //Console.WriteLine(c2);
+            //Console.WriteLine(c3);
 
-            }
 
 
 
+
+
+            //ex6 
+
+
+            //int N = int.Parse(Console.ReadLine());//מספר תלמידים
+            //int errF = 0;// מספר תלמידים שנכשלו 
+            //for (int i = 0; i < N; i++)
+            //{
+
+            //    int tamrur, err;//מספר נכשלים בתמרורים ומספר נכשל כללי
+            //    Console.WriteLine("how many failes in tamrur ? ");
+            //    tamrur = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("how many failes in err ? ");
+            //    err = int.Parse(Console.ReadLine());
+            //    if (tamrur > 0 || err > 3)
+            //        errF++;
+            //}
+            //Console.WriteLine("{0} F ",errF);
+            //Console.WriteLine("{0} F precent ",errF/N);
         }
-        }
+
     }
+}
+    
 
 
