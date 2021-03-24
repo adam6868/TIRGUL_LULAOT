@@ -113,17 +113,78 @@ namespace TIRGUL_LULAOT
 
 
             //ex7
-            int max = int.MinValue;
-            int min = int.MaxValue;
-            int num;
-            for (int i = 0; i < 10; i++)
+            //int max = int.MinValue;
+            //int min = int.MaxValue;
+            //int num;
+            //for (int i = 0; i < 10; i++)
 
+            //{
+            //    num = int.Parse(Console.ReadLine());
+            //    max = Math.Max(max, num);
+            //    min = Math.Min(min, num);
+            //}
+            //Console.WriteLine("max is {0} min is {0}",max,min);
+
+
+
+            //ex8
+            //int age;//גילאים
+            //int counter = 0;//counter
+            //for (int i = 0; i < 30; i++)
+            //{
+            //    Console.WriteLine("enter ages"  ); 
+            //    age = int.Parse(Console.ReadLine());
+            //    if (age <=40 && age >= 22)
+            //    {
+            //        counter ++;
+            //    }
+            //    Console.WriteLine(counter);
+            //}
+            //enter ages
+            //13
+            //0
+            //enter ages
+            //43
+            //0
+            //enter ages
+            //24
+            //1
+            //enter ages
+            //26
+            //2
+
+
+
+            //ex9
+            int num1;//מספר טיולים בו השתתף
+            int num2;//מספר מסיבות בו השתתף
+            int num3;//מספר סרטי טלוויזיה בהם צפה
+            int c1 = 0, c2= 0, c3=0, c4=0;//counter
+            for (int i = 0; i < 100; i++)
             {
-                num = int.Parse(Console.ReadLine());
-                max = Math.Max(max, num);
-                min = Math.Min(min, num);
+                Console.WriteLine("number of trips");             
+                num1 = int.Parse(Console.ReadLine());
+                Console.WriteLine("number of parties");
+                num2 = int.Parse(Console.ReadLine());
+                Console.WriteLine("number of movies");
+                num3= int.Parse(Console.ReadLine());
+                if (num1 >0 && num2 > 0 && num3>0)
+                    {
+                    c1++;
+                }
+                if (num1 >0 && num2 > 0 && num3 = 0)
+                {
+                    c2++;
+                }
+                if (num2>0 && num3>0 &&num1 = 0)
+                {
+                    c2++;
+                }
+                if (num1 > 0 && num3 > 0 && num2 = 0)
+                {
+                    c2++;
+                }
             }
-            Console.WriteLine("max is {0} min is {0}",max,min);
         }
 
     }
