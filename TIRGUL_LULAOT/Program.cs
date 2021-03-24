@@ -172,18 +172,19 @@ namespace TIRGUL_LULAOT
                     {
                     c1++;
                 }
-                if (num1 >0 && num2 > 0 && num3 = 0)
+                if (num1 > 0 && num2 > 0  && num3 == 0)
                 {
                     c2++;
                 }
-                if (num2>0 && num3>0 &&num1 = 0)
+                if (num2>0 && num3>0 &&num1 == 0)
                 {
                     c2++;
                 }
-                if (num1 > 0 && num3 > 0 && num2 = 0)
+                if (num1 > 0 && num3 > 0 && num2 == 0)
                 {
                     c2++;
                 }
+
             }
         }
 
