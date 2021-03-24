@@ -156,40 +156,85 @@ namespace TIRGUL_LULAOT
 
 
             //ex9
-            int num1;//מספר טיולים בו השתתף
-            int num2;//מספר מסיבות בו השתתף
-            int num3;//מספר סרטי טלוויזיה בהם צפה
-            int c1 = 0, c2= 0, c3=0, c4=0;//counter
-            for (int i = 0; i < 100; i++)
-            {
-                Console.WriteLine("number of trips");             
-                num1 = int.Parse(Console.ReadLine());
-                Console.WriteLine("number of parties");
-                num2 = int.Parse(Console.ReadLine());
-                Console.WriteLine("number of movies");
-                num3= int.Parse(Console.ReadLine());
-                if (num1 >0 && num2 > 0 && num3>0)
-                    {
-                    c1++;
-                }
-                if (num1 > 0 && num2 > 0  && num3 == 0)
-                {
-                    c2++;
-                }
-                if (num2>0 && num3>0 &&num1 == 0)
-                {
-                    c2++;
-                }
-                if (num1 > 0 && num3 > 0 && num2 == 0)
-                {
-                    c2++;
-                }
+            //int num1;//מספר טיולים בו השתתף
+            //int num2;//מספר מסיבות בו השתתף
+            //int num3;//מספר סרטי טלוויזיה בהם צפה
+            //int c1 = 0, c2 = 0, c3 = 0, c4 = 0;//counter
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    Console.WriteLine("number of trips");
+            //    num1 = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("number of parties");
+            //    num2 = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("number of movies");
+            //    num3 = int.Parse(Console.ReadLine());
+            //    if (num1 > 0 && num2 > 0 && num3 > 0)
+            //    {
+            //        c1++;
+            //    }
+            //    if (num1 > 0 && num2 > 0 && num3 == 0)
+            //    {
+            //        c2++;
+            //    }
+            //    if (num2 > 0 && num3 > 0 && num1 == 0)
+            //    {
+            //        c2++;
+            //    }
+            //    if (num1 > 0 && num3 > 0 && num2 == 0)
+            //    {
+            //        c2++;
+            //    }
+            //    if (num3 > 3 || num2 > 3 || num1 > 3)
+            //        c3++;
+            //    if (num1 > num2)
+            //        c4++;
+            //}
+            //Console.WriteLine("number of students participates all the sugei biluy {0}", c1);
+            //Console.WriteLine("number of students participates two sugei biluy {0}", c2);
+            //Console.WriteLine("number of students participates one of the sugei biluy more than three time {0}", c3);
+            //Console.WriteLine("number of students that participates more trips than parties {0}", c4);
+
+
+
+
+            //ex10
+            //int num1,num2,num3 ;//מופע 1 מופע 2 מופע 3
+            //int c1=0, c2=0;
+            //for (int i = 0; i < 2000; i++)
+            //{
+            //    Console.WriteLine("buy the first show");
+            //    num1 = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("buy the second show");
+            //    num2 = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("buy the third show");
+            //    num3 = int.Parse(Console.ReadLine());
+            //    if (num1 > 0 && num2 > 0 && num3 > 0) 
+            //    {
+            //        c1++;
+            //    }
+            //    if (num1 > 0)
+            //    {
+            //        c2++;
+            //    }
+            //    else if (num2 > 0) 
+            //    {
+            //        c2++;
+            //            }
+            //    else if(num3>0) 
+            //        {
+            //        c2++;
+            //    }
+            //    Console.WriteLine("number of students buy all the tickets {0}", c1);
+            //    Console.WriteLine("number of students buy only one ticket {0}", c2);
+
 
             }
+ 
+       }
         }
 
     }
-}
+
     
 
 
